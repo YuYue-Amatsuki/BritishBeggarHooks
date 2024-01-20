@@ -36,11 +36,11 @@ public class EULA {
         final String HINT_A = "Make this function return true to represent that you have read the rules and will obey them.";
         final String HINT_B = "If you are using smali editor, make this function return 1 (1 means true)";
         final String HINT_C = "Don't forget to change getTargetPackage return value to beggar game's package name.";
-        return false;
+        return true;
     }
 
     public static String getTargetPackage() {
-        String target = "<ReplaceMe>";
+        String target = "moe.low.arc";
 
         return target;
     }
